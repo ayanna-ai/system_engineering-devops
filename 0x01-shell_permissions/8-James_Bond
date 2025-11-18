@@ -1,2 +1,2 @@
 #!/bin/bash
-# Set permissions: owner=none, group=none, others=all for file hello
+chmod 007 hello
