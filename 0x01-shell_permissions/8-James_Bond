@@ -1,2 +1,2 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # Set permissions: owner=none, group=none, others=all for file hello
