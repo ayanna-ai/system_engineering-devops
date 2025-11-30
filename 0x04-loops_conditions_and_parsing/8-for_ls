@@ -2,10 +2,8 @@
 # This script displays the content of the current directory, showing only the part after the first dash
 for file in *
 do
-    # Check if the item is a file or directory (not hidden)
     if [[ "$file" != .* ]]
     then
-        # Extract the part after the first dash
         if [[ "$file" == *-* ]]
         then
             echo "${file#*-}"
