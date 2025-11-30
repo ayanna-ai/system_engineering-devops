@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
-# This script displays "To infinity and beyond" indefinitely and handles SIGTERM
+# Script that displays "To infinity and beyond" indefinitely
+# and says "I am invincible!!!" when receiving SIGTERM
+# This is like teaching our robot what to do when someone says "please stop"
 trap 'echo "I am invincible!!!"' SIGTERM
+# This loop runs forever (until we force it to stop)
 while true
 do
     echo "To infinity and beyond"
